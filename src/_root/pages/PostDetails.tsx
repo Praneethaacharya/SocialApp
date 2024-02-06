@@ -5,7 +5,7 @@ import { multiFormatDateString } from '@/lib/utils';
 import { useUserContext } from '@/context/AuthContext';
 import { Button } from '@/components/ui/button';
 import PostStats from '@/components/shared/PostStats';
-import { deletePost } from '@/lib/appwrite/api';
+// import { deletePost } from '@/lib/appwrite/api';
 
 
 
