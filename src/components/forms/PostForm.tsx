@@ -129,7 +129,7 @@ const PostForm = ( {post, action}: PostFormProps ) => {
             <FormItem>
               <FormLabel className="shad-form_label">Add tags (seperated by comma ",")</FormLabel>
               <FormControl>
-                <Input type="text" className="shad-input" placeholder="#Art, #Expression, #Snapgram"  {...field} />
+                <Input type="text" className="shad-input" placeholder="Art, Expression, Snapgram"  {...field} />
               </FormControl>
               <FormMessage className="shad-form_message" />
             </FormItem>
